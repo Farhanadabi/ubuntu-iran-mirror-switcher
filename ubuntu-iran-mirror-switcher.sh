@@ -29,7 +29,7 @@ MIRRORS=(
 )
 
 # Default mirror
-DEFAULT_MIRROR=http://archive.ubuntu.com/ubuntu/
+DEFAULT_MIRROR="http://archive.ubuntu.com/ubuntu/"
 
 # Global variables
 selected_mirror=""
