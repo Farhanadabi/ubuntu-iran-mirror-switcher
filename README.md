@@ -63,9 +63,9 @@ sudo ./ubuntu-iran-mirror-switcher.sh --restore
 sudo ./ubuntu-iran-mirror-switcher.sh --list-mirrors
 ```
 
-## 🏗️ Available Iranian Mirrors
+## 🏗️ You Can Add Other Available Iranian Mirrors Like :
 
-The script supports the following Iranian Ubuntu mirrors:
+
 
 - **ArvanCloud** - `mirror.arvancloud.ir`
 - **Asis** - `ubuntu.asis.ai`
