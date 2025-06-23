@@ -117,22 +117,17 @@ sudo ./ubuntu-iran-mirror-switcher.sh
 
 ## 🔄 Restoring Original Configuration
 
-To restore your original mirror configuration:
+To restore your original mirror configuration manually:
 
 ```bash
-sudo ./ubuntu-iran-mirror-switcher.sh --restore
-```
-
-Or manually:
-```bash
-sudo cp /etc/apt/sources.list.backup /etc/apt/sources.list
+sudo cp /etc/apt/sources.list.bak /etc/apt/sources.list
 sudo apt update
 ```
 
 ## 📝 Configuration Files
 
 - **Main config**: `/etc/apt/sources.list`
-- **Backup**: `/etc/apt/sources.list.backup`
+- **Backup**: `/etc/apt/sources.list.bak`
 - **Log file**: `/var/log/mirror-switcher.log`
 
 ## 🤝 Contributing
