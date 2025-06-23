@@ -30,37 +30,37 @@ This script helps Iranian Ubuntu users switch their package repository mirrors f
 
 ### Method 1: Direct Download
 ```bash
-wget https://github.com/Farhanadabi/ubuntu-iran-mirror-switcher/raw/main/mirror-switcher.sh
-chmod +x mirror-switcher.sh
+wget https://github.com/Farhanadabi/ubuntu-iran-mirror-switcher/raw/main/ubuntu-iran-mirror-switcher.sh
+chmod +x ubuntu-iran-mirror-switcher.sh
 ```
 
 ### Method 2: Clone Repository
 ```bash
 git clone https://github.com/Farhanadabi/ubuntu-iran-mirror-switcher.git
 cd ubuntu-iran-mirror-switcher
-chmod +x mirror-switcher.sh
+chmod +x ubuntu-iran-mirror-switcher.sh
 ```
 
 ## 🎯 Usage
 
 ### Basic Usage
 ```bash
-sudo ./mirror-switcher.sh
+sudo ./ubuntu-iran-mirror-switcher.sh
 ```
 
 ### Advanced Options
 ```bash
 # Interactive mode with mirror selection
-sudo ./mirror-switcher.sh --interactive
+sudo ./ubuntu-iran-mirror-switcher.sh --interactive
 
 # Use specific mirror
-sudo ./mirror-switcher.sh --mirror mirror.arvancloud.ir
+sudo ./ubuntu-iran-mirror-switcher.sh --mirror mirror.arvancloud.ir
 
 # Restore original configuration
-sudo ./mirror-switcher.sh --restore
+sudo ./ubuntu-iran-mirror-switcher.sh --restore
 
 # Show available mirrors
-sudo ./mirror-switcher.sh --list-mirrors
+sudo ./ubuntu-iran-mirror-switcher.sh --list-mirrors
 ```
 
 ## 🏗️ Available Iranian Mirrors
@@ -97,7 +97,7 @@ The script supports the following Iranian Ubuntu mirrors:
 ping mirror.arvancloud.ir
 
 # Try different mirror
-sudo ./mirror-switcher.sh --mirror ubuntu.asis.ai
+sudo ./ubuntu-iran-mirror-switcher.sh --mirror ubuntu.asis.ai
 ```
 
 **Package update fails:**
@@ -112,7 +112,7 @@ sudo apt clean && sudo apt update
 **Permission denied:**
 ```bash
 # Ensure you're running with sudo
-sudo ./mirror-switcher.sh
+sudo ./ubuntu-iran-mirror-switcher.sh
 ```
 
 ## 🔄 Restoring Original Configuration
@@ -120,7 +120,7 @@ sudo ./mirror-switcher.sh
 To restore your original mirror configuration:
 
 ```bash
-sudo ./mirror-switcher.sh --restore
+sudo ./ubuntu-iran-mirror-switcher.sh --restore
 ```
 
 Or manually:
@@ -183,11 +183,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Mirror providers for their valuable service
 - Contributors and users who helped improve this script
 
-## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/Farhanadabi/ubuntu-iran-mirror-switcher/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/Farhanadabi/ubuntu-iran-mirror-switcher/discussions)
-- **Email**: [Create an issue for support]
 
 ---
 
