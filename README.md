@@ -48,24 +48,7 @@ chmod +x ubuntu-iran-mirror-switcher.sh
 sudo ./ubuntu-iran-mirror-switcher.sh
 ```
 
-### Advanced Options
-```bash
-# Interactive mode with mirror selection
-sudo ./ubuntu-iran-mirror-switcher.sh --interactive
-
-# Use specific mirror
-sudo ./ubuntu-iran-mirror-switcher.sh --mirror mirror.arvancloud.ir
-
-# Restore original configuration
-sudo ./ubuntu-iran-mirror-switcher.sh --restore
-
-# Show available mirrors
-sudo ./ubuntu-iran-mirror-switcher.sh --list-mirrors
-```
-
 ## 🏗️ You Can Add Other Available Iranian Mirrors Like :
-
-
 
 - **ArvanCloud** - `mirror.arvancloud.ir`
 - **Asis** - `ubuntu.asis.ai`
