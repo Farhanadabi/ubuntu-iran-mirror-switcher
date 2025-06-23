@@ -70,49 +70,6 @@ sudo ./ubuntu-iran-mirror-switcher.sh
 - **Validation**: Checks mirror accessibility before switching
 - **Confirmation**: Prompts for user confirmation before making changes
 
-## 🔍 Troubleshooting
-
-### Common Issues
-
-**Mirror not accessible:**
-```bash
-# Test mirror connectivity
-ping mirror.arvancloud.ir
-
-# Try different mirror
-sudo ./ubuntu-iran-mirror-switcher.sh --mirror ubuntu.asis.ai
-```
-
-**Package update fails:**
-```bash
-# Restore original configuration
-sudo ./mirror-switcher.sh --restore
-
-# Clear package cache
-sudo apt clean && sudo apt update
-```
-
-**Permission denied:**
-```bash
-# Ensure you're running with sudo
-sudo ./ubuntu-iran-mirror-switcher.sh
-```
-
-## 🔄 Restoring Original Configuration
-
-To restore your original mirror configuration manually:
-
-```bash
-sudo cp /etc/apt/sources.list.bak /etc/apt/sources.list
-sudo apt update
-```
-
-## 📝 Configuration Files
-
-- **Main config**: `/etc/apt/sources.list`
-- **Backup**: `/etc/apt/sources.list.bak`
-- **Log file**: `/var/log/mirror-switcher.log`
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
