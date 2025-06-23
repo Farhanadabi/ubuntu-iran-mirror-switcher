@@ -170,8 +170,6 @@ done
 ## 🔗 Useful Links
 
 - [Ubuntu Official Mirrors](https://launchpad.net/ubuntu/+archivemirrors)
-- [Iranian Ubuntu Community](https://ubuntu.ir/)
-- [Mirror Status Checker](https://mirror-status.ubuntu.com/)
 
 ## 📜 License
 
